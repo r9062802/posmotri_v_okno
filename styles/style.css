@@ -19,6 +19,8 @@ html {
     background-color: #1b1919;
     inline-size: 1200px;
     block-size: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 h1,
@@ -46,8 +48,7 @@ ol {
     align-items: end;
     gap: 30px;
     width: 1140px;
-    height: auto;
-    margin: 133px auto 133px auto;
+    height: 534px;
 }
 
 video {
@@ -101,7 +102,7 @@ button {
     flex: 1;
     gap: 26px;
     width: 399px;
-    height: 534px;
+    height: auto;
 }
 
 .content__list {
@@ -305,6 +306,7 @@ button {
 
 .more-button:focus-visible {
 outline: 1px solid #fff;
+outline-offset: 2px;
 }
 
 .search-form__textfield:focus {
@@ -318,7 +320,6 @@ outline: 1px solid #fff;
 
 .search-form__pseudo-checkbox::before {
     content: "";
-    position: absolute;
     display: none;
     width: 15px;
     height: 15px;
